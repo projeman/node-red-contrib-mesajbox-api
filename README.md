@@ -1,4 +1,4 @@
-# <img src="https://github.com/PfisterDaniel/node-red-contrib-whatsapp-cmb/blob/main/nodes/icons/whatsapp.svg" width="60"> [node-red](http://nodered.org)-contrib-whatsapp-cmb
+# <img src="https://github.com/PfisterDaniel/node-red-contrib-whatsapp-cmb/blob/main/nodes/icons/whatsapp.svg" width="60"> [node-red](http://nodered.org)-contrib-mesajbox-api
 
 
 ## Donation:
@@ -11,9 +11,9 @@ If you buy me a coffee I would like to thank you in advance for your donation.
 
 
 ## Installation
-[![NPM](https://nodei.co/npm/node-red-contrib-whatsapp-cmb.png)](https://npmjs.org/package/node-red-contrib-whatsapp-cmb)
-[![Downloads](https://img.shields.io/npm/dm/node-red-contrib-whatsapp-cmb.svg)](https://www.npmjs.com/package/node-red-contrib-whatsapp-cmb)
-[![Current Release](https://img.shields.io/github/v/release/PfisterDaniel/node-red-contrib-whatsapp-cmb.svg?colorB=4cc61e)](https://github.com/PfisterDaniel/node-red-contrib-whatsapp-cmb/releases/latest)
+[![NPM](https://nodei.co/npm/node-red-contrib-whatsapp-cmb.png)](https://npmjs.org/package/node-red-contrib-mesajbox-api)
+[![Downloads](https://img.shields.io/npm/dm/node-red-contrib-whatsapp-cmb.svg)](https://www.npmjs.com/package/node-red-contrib-mesajbox-api)
+[![Current Release](https://img.shields.io/github/v/release/projeman/node-red-contrib-mesajbox-api.svg?colorB=4cc61e)](https://github.com/projeman/node-red-contrib-mesajbox-api/releases/latest)
 
 Install from your Node-RED Manage Palette
 
@@ -21,13 +21,13 @@ or
 
 Install using npm
 
-    $ npm install node-red-contrib-whatsapp-cmb
+    $ npm install node-red-contrib-mesajbox-api
 
 Redmatic:
 
     $ source /usr/local/addons/redmatic/home/.profile
     $ cd /usr/local/addons/redmatic/var
-    $ npm install --save --no-package-lock --global-style --save-prefix="~" --production node-red-contrib-whatsapp-cmb
+    $ npm install --save --no-package-lock --global-style --save-prefix="~" --production node-red-contrib-mesajbox-api
 	
 	
 ## Create API-KEY
@@ -37,7 +37,7 @@ Redmatic:
 3. Wait until you receive the message "API *Activated* for your phone number. Your APIKEY is *123123*" from the bot. As this is still in beta testing, the activation can take up to 2 minutes.
 4. The WhatsApp message from the bot will contain the apikey needed to send messages using the API.
 
-<img src="https://github.com/PfisterDaniel/node-red-contrib-whatsapp-cmb/raw/main/images/create_api_key_example.jpg" width="500" height="117">
+<img src="https://github.com/projeman/node-red-contrib-mesajbox-api/raw/main/images/create_api_key_example.jpg" width="500" height="117">
 
 
 The Node use following API:
@@ -48,7 +48,7 @@ The Node use following API:
 [
     {
         "id": "90eae997.db5198",
-        "type": "node-red-contrib-whatsapp-cmb-send-message",
+        "type": "node-red-contrib-mesajbox-api-send-message",
         "z": "898ead4d.1f05d",
         "name": "",
         "account": "80b99021.9a4",
@@ -106,7 +106,7 @@ The Node use following API:
     },
     {
         "id": "80b99021.9a4",
-        "type": "node-red-contrib-whatsapp-cmb-account",
+        "type": "node-red-contrib-mesajbox-api-account",
         "name": "WhatsApp API Account"
     }
 ]
