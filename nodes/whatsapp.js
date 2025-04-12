@@ -4,7 +4,7 @@ module.exports = function(RED) {
 	/**
 	 * Define Constanten
 	 */
-    const RootLink= "https://api.callmebot.com/whatsapp.php?";
+    const RootLink= "https://www.mesajbox.com.tr/api/whatsapp";
     
     /**
 	 * Function WhatsAppAccount
