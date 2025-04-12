@@ -112,4 +112,4 @@ The Node use following API:
 ]
  ```
 ## Bugs and feature requests
-Please create an issue in [GitHub](https://github.com/PfisterDaniel/node-red-contrib-whatsapp-cmb/issues)
+Please create an issue in [GitHub](https://github.com/projeman/node-red-contrib-mesajbox-api/issues)
